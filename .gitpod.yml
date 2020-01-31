@@ -1,4 +1,2 @@
-image:
-  file: .gitpod.Dockerfile
-tasks:
+takss:
   - before: cargo install wasm-pack cargo-generate
