@@ -1,2 +1,2 @@
-takss:
+tasks:
   - before: cargo install wasm-pack cargo-generate
