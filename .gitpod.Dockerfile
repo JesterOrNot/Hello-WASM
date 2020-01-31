@@ -2,4 +2,4 @@ FROM gitpod/workspace-full
 
 USER gitpod
 
-RUN cargo install wasm-pack cargo-generate
+RUN /bin/bash -c "cargo install wasm-pack cargo-generate"
