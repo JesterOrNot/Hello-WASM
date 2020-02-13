@@ -1,4 +1,3 @@
 tasks:
-  - before: cargo install wasm-pack cargo-generate
-    init: wasm-pack build && cd www && npm install
+  - init: wasm-pack build && cd www && npm install
     command: cd www && npm start
