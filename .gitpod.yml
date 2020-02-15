@@ -5,4 +5,4 @@ ports:
     onOpen: open-preview
 tasks:
   - init: wasm-pack build --target no-modules
-    command: rustup default nightly && cargo run
+    command: rustup run nightly cargo run
