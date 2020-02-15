@@ -5,4 +5,4 @@ ports:
     onOpen: open-preview
 tasks:
   - init: wasm-pack build --target no-modules
-    command: python3 -m http.server
+    command: rustup run nightly cargo run
