@@ -1,6 +1,6 @@
 
 [package]
-name = "without-a-bundler-no-modules"
+name = "hello-wasm"
 version = "0.1.0"
 authors = ["The wasm-bindgen Developers"]
 edition = "2018"
