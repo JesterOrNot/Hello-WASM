@@ -2,7 +2,7 @@
 [package]
 name = "hello-wasm"
 version = "0.1.0"
-authors = ["The wasm-bindgen Developers"]
+authors = ["Sean Hellum"]
 edition = "2018"
 
 [lib]
