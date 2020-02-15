@@ -1,3 +1,3 @@
 FROM gitpod/workspace-full
 
-RUN cargo install wasm-pack
+RUN bash -cl "cargo install wasm-pack"
