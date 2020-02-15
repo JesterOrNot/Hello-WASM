@@ -1,4 +1,7 @@
+image:
+  file: .gitpod.Dockerfile
+ports:
+  - port: 8000
 tasks:
-  - before: cargo install wasm-pack cargo-generate
-    init: wasm-pack build && cd www && npm install
-    command: cd www && npm start
+  - init: wasm-pack build --target no-modules
+    command: python3 -m http.server
