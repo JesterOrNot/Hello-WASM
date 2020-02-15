@@ -10,15 +10,9 @@ extern "C" {
     fn prompt(s: &str) -> String;
 }
 
-// #[wasm_bindgen(start)]
-// pub fn main() {
-//     write("<h1>Hello World From Rust</h1>")
-// }
-
 #[wasm_bindgen]
 pub fn greet() {
-    log("LOGGING!");
-    let s = prompt("Hello");
+    let s = prompt("Input Markdown To Render!");
     let x = mossy::App::exec(String::from(&s));
     write(x.as_str());
 }
